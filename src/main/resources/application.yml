@@ -1,0 +1,20 @@
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://192.168.5.199:3306/mybatis?useUnicode=true&characterEncoding=utf8&useSSL=false
+
+server:
+  port: 8001
+
+spring:
+  profiles:
+    active: dev
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 3
+    password: 123456
+#    jedis:
+#      pool:
+
